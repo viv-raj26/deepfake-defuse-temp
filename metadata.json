@@ -1,0 +1,6 @@
+{
+  "name": "Deepfake Defuse",
+  "description": "AI-Based Fake Identity & Document Screening System for border security, detecting fake passports, altered photos, modified DOB, tampered visa stamps, identity impersonation, and blacklisted credentials.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

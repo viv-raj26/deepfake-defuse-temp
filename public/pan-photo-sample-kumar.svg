@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" width="100%" height="100%" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <!-- Neutral off-white / pale blue background (35x45mm / 150x200 format) -->
+  <rect width="150" height="200" fill="#e9eff4"/>
+  <circle cx="75" cy="90" r="70" fill="#f4f8fb"/>
+
+  <!-- Body / Shoulders (Dark crewneck shirt) -->
+  <path d="M 10,200 Q 15,145 50,132 Q 75,135 100,132 Q 135,145 140,200 Z" fill="#1b1c20"/>
+  <path d="M 52,132 Q 75,140 98,132" fill="none" stroke="#0f1013" stroke-width="2.5"/>
+
+  <!-- Neck -->
+  <path d="M 62,112 L 62,135 Q 75,139 88,135 L 88,112 Z" fill="#b88365"/>
+  <path d="M 66,124 Q 75,130 84,124" fill="#a46f53" opacity="0.6"/>
+
+  <!-- Face & Jawline -->
+  <ellipse cx="75" cy="88" rx="31" ry="38" fill="#c99575"/>
+  <path d="M 48,80 Q 48,110 75,121 Q 102,110 102,80 Z" fill="#bf8a6a"/>
+
+  <!-- Ears -->
+  <ellipse cx="44" cy="88" rx="5.5" ry="9.5" fill="#be8a6c"/>
+  <ellipse cx="106" cy="88" rx="5.5" ry="9.5" fill="#be8a6c"/>
+
+  <!-- Short cropped dark hair -->
+  <path d="M 43,82 C 40,55 56,44 75,44 C 94,44 110,55 107,82 C 103,66 94,53 75,53 C 56,53 47,66 43,82 Z" fill="#141519"/>
+  <path d="M 48,67 Q 75,60 102,67 Q 98,58 75,57 Q 52,58 48,67 Z" fill="#1c1c22"/>
+
+  <!-- Eyebrows -->
+  <path d="M 53,75 Q 63,72 70,75" fill="none" stroke="#1c1815" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M 80,75 Q 87,72 97,75" fill="none" stroke="#1c1815" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="61" cy="82" rx="6" ry="4.5" fill="#fff"/>
+  <circle cx="61" cy="82" r="3" fill="#2b1f1a"/>
+  <circle cx="60.5" cy="81" r="1" fill="#fff"/>
+
+  <!-- Right Eye -->
+  <ellipse cx="89" cy="82" rx="6" ry="4.5" fill="#fff"/>
+  <circle cx="89" cy="82" r="3" fill="#2b1f1a"/>
+  <circle cx="88.5" cy="81" r="1" fill="#fff"/>
+
+  <!-- Nose -->
+  <path d="M 75,79 L 73.5,95 L 75,97 L 76.5,95 Z" fill="#a87556"/>
+  <path d="M 70,96 Q 75,98.5 80,96" fill="none" stroke="#8f5d41" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Mouth & Lips -->
+  <path d="M 67,107 Q 75,109.5 83,107" fill="none" stroke="#844d37" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Subtle shadow / stubble -->
+  <path d="M 58,102 Q 75,118 92,102 Q 75,124 58,102 Z" fill="#5c4434" opacity="0.14"/>
+</svg>
