@@ -174,8 +174,8 @@ export const INITIAL_MOCK_RECORDS: ScanRecord[] = [
     id: 'DFD-2026-9005',
     timestamp: '2026-09-07 05:48:50 IST',
     documentType: 'PAN Card',
-    documentImageUrl: '/pan-front-1536x977.svg',
-    documentPhotoUrl: '/pan-photo-sample-kumar.svg',
+    documentImageUrl: './pan-front-1536x977.svg',
+    documentPhotoUrl: './pan-photo-sample-kumar.svg',
     liveFaceImageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=450&h=600&auto=format&fit=crop&crop=faces,top&q=80',
     extractedInfo: {
       fullName: 'SAMPLE KUMAR',
@@ -660,7 +660,7 @@ export const SAMPLE_DOCUMENTS_PRESETS: DocumentPreset[] = [
       nationality: 'Indian',
       mrzValid: false
     },
-    docImage: '/pan-front-1536x977.svg',
+    docImage: './pan-front-1536x977.svg',
     travelerImage: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=450&h=600&auto=format&fit=crop&crop=faces,top&q=80',
     notes: 'Physical PAN card ABCD12345F presented for Sample Kumar. Live traveler face deviates 65% from card portrait.'
   },

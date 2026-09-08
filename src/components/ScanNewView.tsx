@@ -32,7 +32,7 @@ interface ScanNewViewProps {
 
 export const ScanNewView: React.FC<ScanNewViewProps> = ({ onSaveScan, onOpenDossier }) => {
   // Document state - initialized to uploaded PAN Card
-  const [docImage, setDocImage] = useState<string | null>('/pan-front-1536x977.svg');
+  const [docImage, setDocImage] = useState<string | null>('./pan-front-1536x977.svg');
   const [docType, setDocType] = useState<DocumentType>('PAN Card');
   const [selectedPresetIndex, setSelectedPresetIndex] = useState<number | null>(3);
 
@@ -213,7 +213,7 @@ export const ScanNewView: React.FC<ScanNewViewProps> = ({ onSaveScan, onOpenDoss
           timestamp,
           documentType: preset.type,
           documentImageUrl: docImage,
-          documentPhotoUrl: preset.type === 'PAN Card' ? '/pan-photo-sample-kumar.svg' : docImage,
+          documentPhotoUrl: preset.type === 'PAN Card' ? './pan-photo-sample-kumar.svg' : docImage,
           liveFaceImageUrl: liveFaceImage || preset.travelerImage,
           extractedInfo: {
             fullName: preset.person.fullName,
@@ -302,7 +302,7 @@ export const ScanNewView: React.FC<ScanNewViewProps> = ({ onSaveScan, onOpenDoss
           timestamp,
           documentType: docType,
           documentImageUrl: docImage,
-          documentPhotoUrl: docType === 'PAN Card' ? '/pan-photo-sample-kumar.svg' : docImage,
+          documentPhotoUrl: docType === 'PAN Card' ? './pan-photo-sample-kumar.svg' : docImage,
           liveFaceImageUrl: liveFaceImage || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=450&h=600&auto=format&fit=crop&crop=faces,top&q=80',
           extractedInfo: {
             fullName: 'RAJESH KUMAR SHARMA',
@@ -478,7 +478,7 @@ export const ScanNewView: React.FC<ScanNewViewProps> = ({ onSaveScan, onOpenDoss
                 </div>
                 <div className={`${docType === 'PAN Card' ? 'w-full max-w-[320px] aspect-[1.57/1]' : 'w-[150px] h-[200px]'} rounded-xl border-2 border-blue-400/80 shadow-md overflow-hidden bg-[#e0ecf8] relative group transition-all`}>
                   <img 
-                    src={docImage || '/pan-front-1536x977.svg'} 
+                    src={docImage || './pan-front-1536x977.svg'} 
                     alt="Indian Identity Document" 
                     className="w-full h-full object-cover object-center"
                     referrerPolicy="no-referrer"
