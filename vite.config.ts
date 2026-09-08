@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    base: '/deepfake-defuse-temp/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
